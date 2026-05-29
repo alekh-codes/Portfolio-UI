@@ -10,7 +10,7 @@ const Landing = ({dark}) => {
         <p className="text-purple-700 text-xl mx-7 font-bold my-2">Hello, I am</p>
         <h1 className="text-7xl my-2 mx-7">Alekh</h1>
         <h3 className="my-2 text-3xl mx-7 opacity-40 ">
-          Aspiring full-stack developer
+          Frontend Developer
         </h3>
         <p className="opacity-60 mx-7">
           A Frontend Developer focused on creating seamless user experiences.{" "}

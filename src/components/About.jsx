@@ -10,10 +10,10 @@ const About = ({dark}) => {
         </h1>
       </div>
       <div className="mx-7 mt-10 lg:mx-70">
-        <p className="     tracking-[2px] leading-7 opacity-60 text-justify ">
-          I am a third-year B.Tech Computer Science student with a strong foundation in frontend development and a growing expertise in full-stack and AI-driven solutions. I specialize in building responsive and user-centric web applications using HTML, CSS, JavaScript, and libraries like React.js and Tailwind CSS, along with backend technologies like Node.js and MongoDB. <br /> 
-          I have hands-on experience developing real-world projects such as a Job Application Tracker and Aagman, where I focused on solving practical problems through intuitive design and efficient functionality. My internship experience as a Frontend Developer at Code Alpha and InternPe further strengthened my ability to build scalable and interactive web interfaces. <br /> 
-          Currently, I am enhancing my problem-solving skills through Data Structures and Algorithms. I am a quick learner, adaptable, and passionate about building impactful digital solutions. I am seeking opportunities where I can contribute, grow, and continuously improve as a software developer.
+        <p className="tracking-[2px] leading-7 opacity-60 text-justify ">
+          I am a third-year B.Tech Computer Science student specializing in frontend development with hands-on experience building responsive, user-centric web applications using React.js and Tailwind CSS. <br />
+I am developing real-world projects including a Job Application Tracker(CareerTrack), focusing on clean UI, reusable component architecture, and mobile-first design. My internship experience at Code Alpha and InternPe strengthened my ability to build interactive and scalable web interfaces. <br />
+Currently expanding into full-stack development with Node.js and MongoDB, while sharpening my problem-solving skills through Data Structures and Algorithms. I am a quick learner, passionate about building impactful digital solutions, and actively seeking opportunities to contribute and grow as a developer.
         </p>
       </div>
       <div className="mt-13 flex justify-center items-center opacity-60 text-[17px]">
