@@ -5,15 +5,24 @@ const frontendSkills = ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"]
 const learningSkills = ["Node.js","Express.js", "MongoDB"]
 const softSkills = ["Communication", "Problem Solver", "Collaborative", "Team Work", "Time Management", "Continuous Learning", "Adaptability"]
 
-const SkillBadge = ({ item, color }) => {
+const SkillBadge = ({ item, color, dark }) => {
   const styles = {
-    purple: "bg-purple-700/10 border-purple-700/50 text-purple-300 hover:border-purple-500 hover:bg-purple-700/20",
-    amber:  "bg-amber-500/10 border-amber-500/40 text-amber-300 hover:border-amber-400 hover:bg-amber-500/20",
-    green:  "bg-green-400/10 border-green-400/40 text-green-300 hover:border-green-300 hover:bg-green-400/20",
+    purple: {
+      base: "bg-purple-700/10 border-purple-700/50 hover:border-purple-500 hover:bg-purple-700/20",
+      text: dark ? "text-purple-300" : "text-purple-700",
+    },
+    amber: {
+      base: "bg-amber-500/10 border-amber-500/40 hover:border-amber-400 hover:bg-amber-500/20",
+      text: dark ? "text-amber-300" : "text-amber-700",
+    },
+    green: {
+      base: "bg-green-400/10 border-green-400/40 hover:border-green-300 hover:bg-green-400/20",
+      text: dark ? "text-green-300" : "text-green-700",
+    },
   }
   return (
     <span
-      className={`border text-xs md:text-[18px] font-medium px-3 py-2 rounded-xl flex items-center justify-center text-center transition-all duration-300 cursor-default select-none ${styles[color]}`}
+      className={`border text-xs md:text-[18px] font-medium px-3 py-2 rounded-xl flex items-center justify-center text-center transition-all duration-300 cursor-default select-none ${styles[color].base} ${styles[color].text}`}
     >
       {item}
     </span>
@@ -49,7 +58,7 @@ const Skills = ({ dark }) => {
             <p className="text-xs uppercase tracking-widest opacity-40 mb-3 font-semibold">Frontend</p>
             <div className="flex flex-wrap gap-2">
               {frontendSkills.map(item => (
-                <SkillBadge key={item} item={item} color="purple" />
+                <SkillBadge key={item} item={item} color="purple" dark={dark} />
               ))}
             </div>
           </div>
@@ -60,7 +69,7 @@ const Skills = ({ dark }) => {
             <p className="text-xs uppercase tracking-widest opacity-40 mb-3 font-semibold">Currently Learning</p>
             <div className="flex flex-wrap gap-2">
               {learningSkills.map(item => (
-                <SkillBadge key={item} item={item} color="amber" />
+                <SkillBadge key={item} item={item} color="amber" dark={dark} />
               ))}
             </div>
           </div>
@@ -79,7 +88,7 @@ const Skills = ({ dark }) => {
 
           <div className="flex flex-wrap gap-2">
             {softSkills.map(item => (
-              <SkillBadge key={item} item={item} color="green" />
+              <SkillBadge key={item} item={item} color="green" dark={dark} />
             ))}
           </div>
         </div>
