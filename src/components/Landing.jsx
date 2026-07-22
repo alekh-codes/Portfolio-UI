@@ -1,7 +1,7 @@
 import React from "react";
 import { RiDownload2Line } from "react-icons/ri";
-import main from "../assets/main.jpeg";
-import Resume from "../assets/Alekh_FrontendDeveloper_Resume.pdf"
+import main from "../assets/main.png";
+import Resume from "../assets/Alekh_Full_Stack_Developer.pdf"
 const Landing = ({dark}) => {
   return (
     <section id="home" className={`w-full ${dark ? "bg-black" : "bg-white"} `}>
