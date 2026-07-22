@@ -66,7 +66,7 @@ const Skills = ({ dark }) => {
           <div className="border-t border-purple-700/20 my-4" />
 
           <div>
-            <p className="text-xs uppercase tracking-widest opacity-40 mb-3 font-semibold">Currently Learning</p>
+            <p className="text-xs uppercase tracking-widest opacity-40 mb-3 font-semibold">Backend</p>
             <div className="flex flex-wrap gap-2">
               {learningSkills.map(item => (
                 <SkillBadge key={item} item={item} color="amber" dark={dark} />

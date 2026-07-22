@@ -11,10 +11,16 @@ const About = ({dark}) => {
       </div>
       <div className="mx-7 mt-10 lg:mx-70">
         <p className="tracking-[2px] leading-7 opacity-60 text-justify ">
-          I am a third-year B.Tech Computer Science student specializing in frontend development with hands-on experience building responsive, user-centric web applications using React.js and Tailwind CSS. <br />
-I am developing real-world projects including a Job Application Tracker(CareerTrack), focusing on clean UI, reusable component architecture, and mobile-first design. My internship experience at Code Alpha and InternPe strengthened my ability to build interactive and scalable web interfaces. <br />
-Currently expanding into full-stack development with Node.js and MongoDB, while sharpening my problem-solving skills through Data Structures and Algorithms. I am a quick learner, passionate about building impactful digital solutions, and actively seeking opportunities to contribute and grow as a developer.
-        </p>
+          I enjoy taking ideas from concept to completion—whether it's a dashboard, an API, or a full-stack web application. Building software that solves real problems is what keeps me motivated. <br />
+
+I'm a final-year Computer Science student focused on full-stack development with React.js, Node.js, Express.js, and MongoDB. I chose to learn both frontend and backend because I enjoy understanding how complete applications work, from responsive user interfaces to scalable server-side logic. <br />
+
+One of my recent projects is an Asset Management System, where I built a production-style React dashboard featuring reusable components, full CRUD functionality, real-time search and filtering, live analytics, and centralized state management using Context API. I'm also building DevFuse, a developer networking platform with JWT authentication, secure password hashing using bcrypt, protected routes, and RESTful APIs. <br />
+
+Before moving into full-stack development, I completed frontend internships where I built applications using HTML, CSS, and JavaScript, strengthening my fundamentals before adopting modern frameworks. <br />
+
+
+I'm currently looking for Full Stack or Frontend Developer opportunities where I can build meaningful products, learn from experienced engineers, and continue growing as a software developer.</p>
       </div>
       <div className="mt-13 flex justify-center items-center opacity-60 text-[17px]">
         <RiMapPinLine className="mr-2 text-purple-700" /> Dehradun, Uttarakhand, India
@@ -33,7 +39,7 @@ Currently expanding into full-stack development with Node.js and MongoDB, while 
             <h3 className="opacity-60">Uttaranchal University, Dehradun</h3>
           </div>
           <div>
-            <p className="text-purple-700 font-bold">CGPA: 8.1</p>
+            <p className="text-purple-700 font-bold">CGPA: 8.24</p>
           </div> 
         </div>
       </div>
