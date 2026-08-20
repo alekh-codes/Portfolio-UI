@@ -1,11 +1,23 @@
 import { RiExternalLinkFill, RiGithubFill } from "react-icons/ri";
 import asset from "../assets/asset.png";
-import job from "../assets/job.png";
+import devFuse from "../assets/Devfuse.png"
 const Projects = ({dark}) =>{
 
     const projectOverview = [
         {
             id:1,
+            head:"DevFuse - Connect,Collaborate, and Code",
+            img: devFuse,
+            desc:"A dedicated social space for developers to showcase projects, connect with peers, and collaborate on code.",
+            github:<RiGithubFill/>,
+            live:<RiExternalLinkFill/>,
+            gitHref:"https://github.com/alekh-codes/DevFuse-Web.git",
+            liveLink:"#",
+            overlay:"Work in progress",
+            techStack: ["React", "Tailwind", "JavaScript", "Node.js", "Express.js", "MongoDB"]
+        },
+        {
+            id:2,
             head:"Asset Management System",
             img:asset,
             desc:"Asset Management System is a responsive web application built with React and Tailwind CSS that allows users to add, edit, delete, search, and organize assets efficiently through an intuitive dashboard.",
@@ -15,17 +27,7 @@ const Projects = ({dark}) =>{
             liveLink:"https://assets-management-system-ten.vercel.app/",
             techStack: ["React", "Tailwind", "JavaScript"]
         },
-        {
-            id:2,
-            head:"CareerTrack - Job Application Tracker App",
-            img: job,
-            desc:"Job Application Tracker is a web application that helps users organize and monitor their job applications in one place.",
-            github:<RiGithubFill/>,
-            live:<RiExternalLinkFill/>,
-            href:"#",
-            overlay:"Work in progress",
-            techStack: ["React", "Tailwind", "JavaScript", "Node.js", "Express.js", "MongoDB"]
-        }
+        
     ]
 
     return(
@@ -64,8 +66,8 @@ const Projects = ({dark}) =>{
                                 }
                             </div>
                             <div className="flex gap-5 mt-5">
-                                <a href={gitHref} target="_blank" className="flex items-center text-l gap-2 text-white bg-black p-2 hover:bg-[#c6f9b6] hover:text-black rounded-xl cursor-pointer">{github} Github</a>
-                                <a href={liveLink} target="_blank" className="flex items-center text-l gap-2 text-white bg-purple-700 hover:bg-purple-800 p-2 rounded-xl cursor-pointer">{live} Live</a>
+                                <a href={gitHref} target="_blank" className="flex items-center text-l gap-2 text-white bg-black p-2 hover:bg-[#c6f9b6] hover:text-black rounded-xl cursor-pointer">{github}</a>
+                                <a href={liveLink} target="_blank" className="flex items-center text-l gap-2 text-white bg-purple-700 hover:bg-purple-800 p-2 rounded-xl cursor-pointer">{live}</a>
                             </div>
                         </div>
                     ))
