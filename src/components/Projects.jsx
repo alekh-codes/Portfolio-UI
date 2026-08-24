@@ -12,8 +12,8 @@ const Projects = ({dark}) =>{
             github:<RiGithubFill/>,
             live:<RiExternalLinkFill/>,
             gitHref:"https://github.com/alekh-codes/DevFuse-Web.git",
-            liveLink:"#",
-            overlay:"Work in progress",
+            liveLink:"https://devfuse-ten.vercel.app/login",
+            overlay:"",
             techStack: ["React", "Tailwind", "JavaScript", "Node.js", "Express.js", "MongoDB"]
         },
         {
