@@ -16,7 +16,7 @@ const Footer = ({ dark }) => {
     },
     {
       icon: <RiGithubFill />,
-      href: "https://github.com/alekh-thakur",
+      href: "https://github.com/alekh-codes",
       target: "_blank",
     },
     { icon: <RiMailFill />, href: "mailto:codewithalekh@gmail.com" },
