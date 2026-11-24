@@ -1,7 +1,7 @@
 import React from "react";
 import { RiDownload2Line } from "react-icons/ri";
 import main from "../assets/main.png";
-import Resume from "../assets/Alekh_Full_Stack_Developer.pdf"
+import Resume from "../assets/Alekh_MERN_Stack_Developer.pdf"
 const Landing = ({dark}) => {
   return (
     <section id="home" className={`w-full ${dark ? "bg-black" : "bg-white"} `}>
@@ -10,10 +10,10 @@ const Landing = ({dark}) => {
         <p className="text-purple-700 text-xl mx-7 font-bold my-2">Hello, I am</p>
         <h1 className="text-7xl my-2 mx-7">Alekh</h1>
         <h3 className="my-2 text-3xl mx-7 opacity-40 ">
-          Frontend Developer
+          MERN Stack Developer
         </h3>
         <p className="opacity-60 mx-7">
-          A Frontend Developer focused on creating seamless user experiences.{" "}
+          A MERN Stack Developer focused on creating seamless user experiences.{" "}
           <br />
           On a journey to master full-stack development.
         </p>
