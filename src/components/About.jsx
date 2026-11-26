@@ -13,11 +13,12 @@ const About = ({dark}) => {
         <p className="tracking-[2px] leading-7 opacity-60 text-justify ">
           I enjoy taking ideas from concept to completion—whether it's a dashboard, an API, or a full-stack web application. Building software that solves real problems is what keeps me motivated. <br />
 
+I enjoy taking ideas from concept to completion—whether it's a dashboard, an API, or a full-stack web application. Building software that solves real problems is what keeps me motivated. <br />
+
 I'm a final-year Computer Science student focused on full-stack development with React.js, Node.js, Express.js, and MongoDB. I chose to learn both frontend and backend because I enjoy understanding how complete applications work, from responsive user interfaces to scalable server-side logic. <br />
 
-One of my recent projects is an Asset Management System, where I built a production-style React dashboard featuring reusable components, full CRUD functionality, real-time search and filtering, live analytics, and centralized state management using Context API. I'm also building DevFuse, a developer networking platform with JWT authentication, secure password hashing using bcrypt, protected routes, and RESTful APIs. <br />
+I've built projects like DevFuse, a full-stack developer networking platform featuring swipe-based matching, connection request workflows, JWT cookie authentication, secure password hashing with bcrypt, protected routes, Redux Toolkit state management, and RESTful APIs. I also built an Asset Management System—a production-style React dashboard with reusable components, full CRUD functionality, real-time search and filtering, live analytics, and centralized state management using Context API. <br />
 
-Before moving into full-stack development, I completed frontend internships where I built applications using HTML, CSS, and JavaScript, strengthening my fundamentals before adopting modern frameworks. <br />
 
 
 I'm currently looking for Full Stack or Frontend Developer opportunities where I can build meaningful products, learn from experienced engineers, and continue growing as a software developer.</p>
